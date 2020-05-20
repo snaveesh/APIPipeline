@@ -1,0 +1,536 @@
+2020-04-28 11:30:41,026 [11] INFO  API logger [(null)] - Executing actionGET
+2020-04-28 11:30:50,735 [11] INFO  API logger [(null)] - Executed actionGET
+2020-04-28 11:35:06,008 [6] INFO  API logger [(null)] - Executing action GET for http://localhost:52376/api/Customer at 4/28/2020 11:35:06 AM
+2020-04-28 11:35:10,492 [6] INFO  API logger [(null)] - Executed action GET for http://localhost:52376/api/Customer at 4/28/2020 11:35:10 AM
+2020-04-28 11:39:01,195 [6] INFO  TestWebApi.Utilities.LogInfo [(null)] - Executing action GET for http://localhost:52376/api/Customer at 4/28/2020 11:39:01 AM
+2020-04-28 11:39:02,597 [6] INFO  TestWebApi.Utilities.LogInfo [(null)] - Executed action GET for http://localhost:52376/api/Customer at 4/28/2020 11:39:02 AM
+2020-04-28 12:00:30,719 [7] INFO  API logger [(null)] - Executing action GET for http://localhost:52376/api/Customer at 4/28/2020 12:00:30 PM
+2020-04-28 12:00:43,446 [7] INFO  API logger [(null)] - Executed action GET for http://localhost:52376/api/Customer at 4/28/2020 12:00:43 PM
+2020-04-29 14:47:23,087 [6] INFO  API logger [(null)] - Executing action POST for http://localhost:52376/api/Customer at 4/29/2020 2:47:23 PM
+2020-04-29 14:47:23,284 [6] INFO  NHibernate.Validator.Cfg.XmlMappingLoader [(null)] - Searching for mapped documents in assembly: TestWebApi
+2020-04-29 14:47:23,294 [6] INFO  NHibernate.Validator.Cfg.XmlMappingLoader [(null)] - Mapping resource: TestWebApi.Models.Customer.nhv.xml
+2020-04-29 14:47:23,587 [6] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Looking for rules for property : FirstName
+2020-04-29 14:47:23,601 [6] INFO  NHibernate.Validator.Cfg.MappingSchema.RuleAttributeFactory [(null)] - Converting to NotNullNotEmptyAttribute
+2020-04-29 14:47:23,605 [6] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Adding member FirstName to dictionary with attribute NHibernate.Validator.Constraints.NotNullNotEmptyAttribute
+2020-04-29 14:47:23,609 [6] INFO  NHibernate.Validator.Cfg.MappingSchema.RuleAttributeFactory [(null)] - Converting to Pattern attribute
+2020-04-29 14:47:23,611 [6] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Adding member FirstName to dictionary with attribute NHibernate.Validator.Constraints.PatternAttribute
+2020-04-29 14:47:23,617 [6] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Looking for rules for property : LastName
+2020-04-29 14:47:23,620 [6] INFO  NHibernate.Validator.Cfg.MappingSchema.RuleAttributeFactory [(null)] - Converting to NotNullNotEmptyAttribute
+2020-04-29 14:47:23,622 [6] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Adding member LastName to dictionary with attribute NHibernate.Validator.Constraints.NotNullNotEmptyAttribute
+2020-04-29 14:47:23,625 [6] INFO  NHibernate.Validator.Cfg.MappingSchema.RuleAttributeFactory [(null)] - Converting to Pattern attribute
+2020-04-29 14:47:23,627 [6] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Adding member LastName to dictionary with attribute NHibernate.Validator.Constraints.PatternAttribute
+2020-04-29 14:47:23,629 [6] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Looking for rules for property : Address
+2020-04-29 14:47:23,634 [6] INFO  NHibernate.Validator.Cfg.MappingSchema.RuleAttributeFactory [(null)] - Converting to NotNullNotEmptyAttribute
+2020-04-29 14:47:23,636 [6] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Adding member Address to dictionary with attribute NHibernate.Validator.Constraints.NotNullNotEmptyAttribute
+2020-04-29 14:47:23,638 [6] INFO  NHibernate.Validator.Cfg.MappingSchema.RuleAttributeFactory [(null)] - Converting to Pattern attribute
+2020-04-29 14:47:23,640 [6] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Adding member Address to dictionary with attribute NHibernate.Validator.Constraints.PatternAttribute
+2020-04-29 14:47:23,643 [6] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Looking for rules for property : Phonenumber
+2020-04-29 14:47:23,645 [6] INFO  NHibernate.Validator.Cfg.MappingSchema.RuleAttributeFactory [(null)] - Converting to NotNullNotEmptyAttribute
+2020-04-29 14:47:23,649 [6] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Adding member Phonenumber to dictionary with attribute NHibernate.Validator.Constraints.NotNullNotEmptyAttribute
+2020-04-29 14:47:23,651 [6] INFO  NHibernate.Validator.Cfg.MappingSchema.RuleAttributeFactory [(null)] - Converting to Pattern attribute
+2020-04-29 14:47:23,654 [6] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Adding member Phonenumber to dictionary with attribute NHibernate.Validator.Constraints.PatternAttribute
+2020-04-29 14:47:23,670 [6] INFO  NHibernate.Validator.Engine.ClassValidator [(null)] - Adding member FirstName to dictionary with attribute NHibernate.Validator.Constraints.NotNullNotEmptyAttribute
+2020-04-29 14:47:23,671 [6] INFO  NHibernate.Validator.Engine.ClassValidator [(null)] - Adding member FirstName to dictionary with attribute NHibernate.Validator.Constraints.PatternAttribute
+2020-04-29 14:47:23,677 [6] INFO  NHibernate.Validator.Engine.ClassValidator [(null)] - Adding member LastName to dictionary with attribute NHibernate.Validator.Constraints.NotNullNotEmptyAttribute
+2020-04-29 14:47:23,679 [6] INFO  NHibernate.Validator.Engine.ClassValidator [(null)] - Adding member LastName to dictionary with attribute NHibernate.Validator.Constraints.PatternAttribute
+2020-04-29 14:47:23,681 [6] INFO  NHibernate.Validator.Engine.ClassValidator [(null)] - Adding member Address to dictionary with attribute NHibernate.Validator.Constraints.NotNullNotEmptyAttribute
+2020-04-29 14:47:23,684 [6] INFO  NHibernate.Validator.Engine.ClassValidator [(null)] - Adding member Address to dictionary with attribute NHibernate.Validator.Constraints.PatternAttribute
+2020-04-29 14:47:23,686 [6] INFO  NHibernate.Validator.Engine.ClassValidator [(null)] - Adding member Phonenumber to dictionary with attribute NHibernate.Validator.Constraints.NotNullNotEmptyAttribute
+2020-04-29 14:47:23,688 [6] INFO  NHibernate.Validator.Engine.ClassValidator [(null)] - Adding member Phonenumber to dictionary with attribute NHibernate.Validator.Constraints.PatternAttribute
+2020-04-29 14:47:23,724 [6] INFO  NHibernate.Cfg.Environment [(null)] - NHibernate 5.2.7 (assembly 5.2.0.0)
+2020-04-29 14:47:23,735 [6] INFO  NHibernate.Cfg.Environment [(null)] - hibernate-configuration section not found in application configuration file
+2020-04-29 14:47:23,739 [6] INFO  NHibernate.Cfg.Environment [(null)] - Bytecode provider name : lcg
+2020-04-29 14:47:23,743 [6] INFO  NHibernate.Cfg.Environment [(null)] - Objects factory class : NHibernate.Bytecode.ActivatorObjectsFactory
+2020-04-29 14:47:23,746 [6] INFO  NHibernate.Cfg.Environment [(null)] - Using reflection optimizer
+2020-04-29 14:47:42,740 [6] INFO  API logger [(null)] - Executed action POST for http://localhost:52376/api/Customer at 4/29/2020 2:47:42 PM
+2020-04-29 14:52:10,213 [5] INFO  API logger [(null)] - Executing action POST for http://localhost:52376/api/Customer at 4/29/2020 2:52:10 PM
+2020-04-29 14:52:10,401 [5] INFO  NHibernate.Validator.Cfg.XmlMappingLoader [(null)] - Searching for mapped documents in assembly: TestWebApi
+2020-04-29 14:52:10,408 [5] INFO  NHibernate.Validator.Cfg.XmlMappingLoader [(null)] - Mapping resource: TestWebApi.Models.Customer.nhv.xml
+2020-04-29 14:52:10,598 [5] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Looking for rules for property : FirstName
+2020-04-29 14:52:10,607 [5] INFO  NHibernate.Validator.Cfg.MappingSchema.RuleAttributeFactory [(null)] - Converting to NotNullNotEmptyAttribute
+2020-04-29 14:52:10,615 [5] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Adding member FirstName to dictionary with attribute NHibernate.Validator.Constraints.NotNullNotEmptyAttribute
+2020-04-29 14:52:10,617 [5] INFO  NHibernate.Validator.Cfg.MappingSchema.RuleAttributeFactory [(null)] - Converting to Pattern attribute
+2020-04-29 14:52:10,637 [5] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Adding member FirstName to dictionary with attribute NHibernate.Validator.Constraints.PatternAttribute
+2020-04-29 14:52:10,643 [5] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Looking for rules for property : LastName
+2020-04-29 14:52:10,645 [5] INFO  NHibernate.Validator.Cfg.MappingSchema.RuleAttributeFactory [(null)] - Converting to NotNullNotEmptyAttribute
+2020-04-29 14:52:10,647 [5] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Adding member LastName to dictionary with attribute NHibernate.Validator.Constraints.NotNullNotEmptyAttribute
+2020-04-29 14:52:10,648 [5] INFO  NHibernate.Validator.Cfg.MappingSchema.RuleAttributeFactory [(null)] - Converting to Pattern attribute
+2020-04-29 14:52:10,650 [5] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Adding member LastName to dictionary with attribute NHibernate.Validator.Constraints.PatternAttribute
+2020-04-29 14:52:10,652 [5] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Looking for rules for property : Address
+2020-04-29 14:52:10,654 [5] INFO  NHibernate.Validator.Cfg.MappingSchema.RuleAttributeFactory [(null)] - Converting to NotNullNotEmptyAttribute
+2020-04-29 14:52:10,656 [5] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Adding member Address to dictionary with attribute NHibernate.Validator.Constraints.NotNullNotEmptyAttribute
+2020-04-29 14:52:10,658 [5] INFO  NHibernate.Validator.Cfg.MappingSchema.RuleAttributeFactory [(null)] - Converting to Pattern attribute
+2020-04-29 14:52:10,660 [5] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Adding member Address to dictionary with attribute NHibernate.Validator.Constraints.PatternAttribute
+2020-04-29 14:52:10,662 [5] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Looking for rules for property : Phonenumber
+2020-04-29 14:52:10,664 [5] INFO  NHibernate.Validator.Cfg.MappingSchema.RuleAttributeFactory [(null)] - Converting to NotNullNotEmptyAttribute
+2020-04-29 14:52:10,666 [5] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Adding member Phonenumber to dictionary with attribute NHibernate.Validator.Constraints.NotNullNotEmptyAttribute
+2020-04-29 14:52:10,668 [5] INFO  NHibernate.Validator.Cfg.MappingSchema.RuleAttributeFactory [(null)] - Converting to Pattern attribute
+2020-04-29 14:52:10,670 [5] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Adding member Phonenumber to dictionary with attribute NHibernate.Validator.Constraints.PatternAttribute
+2020-04-29 14:52:10,683 [5] INFO  NHibernate.Validator.Engine.ClassValidator [(null)] - Adding member FirstName to dictionary with attribute NHibernate.Validator.Constraints.NotNullNotEmptyAttribute
+2020-04-29 14:52:10,685 [5] INFO  NHibernate.Validator.Engine.ClassValidator [(null)] - Adding member FirstName to dictionary with attribute NHibernate.Validator.Constraints.PatternAttribute
+2020-04-29 14:52:10,693 [5] INFO  NHibernate.Validator.Engine.ClassValidator [(null)] - Adding member LastName to dictionary with attribute NHibernate.Validator.Constraints.NotNullNotEmptyAttribute
+2020-04-29 14:52:10,695 [5] INFO  NHibernate.Validator.Engine.ClassValidator [(null)] - Adding member LastName to dictionary with attribute NHibernate.Validator.Constraints.PatternAttribute
+2020-04-29 14:52:10,696 [5] INFO  NHibernate.Validator.Engine.ClassValidator [(null)] - Adding member Address to dictionary with attribute NHibernate.Validator.Constraints.NotNullNotEmptyAttribute
+2020-04-29 14:52:10,698 [5] INFO  NHibernate.Validator.Engine.ClassValidator [(null)] - Adding member Address to dictionary with attribute NHibernate.Validator.Constraints.PatternAttribute
+2020-04-29 14:52:10,700 [5] INFO  NHibernate.Validator.Engine.ClassValidator [(null)] - Adding member Phonenumber to dictionary with attribute NHibernate.Validator.Constraints.NotNullNotEmptyAttribute
+2020-04-29 14:52:10,702 [5] INFO  NHibernate.Validator.Engine.ClassValidator [(null)] - Adding member Phonenumber to dictionary with attribute NHibernate.Validator.Constraints.PatternAttribute
+2020-04-29 14:52:10,729 [5] INFO  NHibernate.Cfg.Environment [(null)] - NHibernate 5.2.7 (assembly 5.2.0.0)
+2020-04-29 14:52:10,737 [5] INFO  NHibernate.Cfg.Environment [(null)] - hibernate-configuration section not found in application configuration file
+2020-04-29 14:52:10,741 [5] INFO  NHibernate.Cfg.Environment [(null)] - Bytecode provider name : lcg
+2020-04-29 14:52:10,745 [5] INFO  NHibernate.Cfg.Environment [(null)] - Objects factory class : NHibernate.Bytecode.ActivatorObjectsFactory
+2020-04-29 14:52:10,747 [5] INFO  NHibernate.Cfg.Environment [(null)] - Using reflection optimizer
+2020-04-29 14:53:12,594 [5] INFO  API logger [(null)] - Executed action POST for http://localhost:52376/api/Customer at 4/29/2020 2:53:12 PM
+2020-04-29 14:57:45,427 [6] INFO  API logger [(null)] - Executing action POST for http://localhost:52376/api/Customer at 4/29/2020 2:57:45 PM
+2020-04-29 14:57:45,639 [6] INFO  NHibernate.Validator.Cfg.XmlMappingLoader [(null)] - Searching for mapped documents in assembly: TestWebApi
+2020-04-29 14:57:45,652 [6] INFO  NHibernate.Validator.Cfg.XmlMappingLoader [(null)] - Mapping resource: TestWebApi.Models.Customer.nhv.xml
+2020-04-29 14:57:45,842 [6] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Looking for rules for property : FirstName
+2020-04-29 14:57:45,848 [6] INFO  NHibernate.Validator.Cfg.MappingSchema.RuleAttributeFactory [(null)] - Converting to NotNullNotEmptyAttribute
+2020-04-29 14:57:45,850 [6] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Adding member FirstName to dictionary with attribute NHibernate.Validator.Constraints.NotNullNotEmptyAttribute
+2020-04-29 14:57:45,853 [6] INFO  NHibernate.Validator.Cfg.MappingSchema.RuleAttributeFactory [(null)] - Converting to Pattern attribute
+2020-04-29 14:57:45,854 [6] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Adding member FirstName to dictionary with attribute NHibernate.Validator.Constraints.PatternAttribute
+2020-04-29 14:57:45,856 [6] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Looking for rules for property : LastName
+2020-04-29 14:57:45,859 [6] INFO  NHibernate.Validator.Cfg.MappingSchema.RuleAttributeFactory [(null)] - Converting to NotNullNotEmptyAttribute
+2020-04-29 14:57:45,860 [6] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Adding member LastName to dictionary with attribute NHibernate.Validator.Constraints.NotNullNotEmptyAttribute
+2020-04-29 14:57:45,862 [6] INFO  NHibernate.Validator.Cfg.MappingSchema.RuleAttributeFactory [(null)] - Converting to Pattern attribute
+2020-04-29 14:57:45,865 [6] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Adding member LastName to dictionary with attribute NHibernate.Validator.Constraints.PatternAttribute
+2020-04-29 14:57:45,868 [6] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Looking for rules for property : Address
+2020-04-29 14:57:45,872 [6] INFO  NHibernate.Validator.Cfg.MappingSchema.RuleAttributeFactory [(null)] - Converting to NotNullNotEmptyAttribute
+2020-04-29 14:57:45,874 [6] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Adding member Address to dictionary with attribute NHibernate.Validator.Constraints.NotNullNotEmptyAttribute
+2020-04-29 14:57:45,875 [6] INFO  NHibernate.Validator.Cfg.MappingSchema.RuleAttributeFactory [(null)] - Converting to Pattern attribute
+2020-04-29 14:57:45,878 [6] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Adding member Address to dictionary with attribute NHibernate.Validator.Constraints.PatternAttribute
+2020-04-29 14:57:45,880 [6] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Looking for rules for property : Phonenumber
+2020-04-29 14:57:45,882 [6] INFO  NHibernate.Validator.Cfg.MappingSchema.RuleAttributeFactory [(null)] - Converting to NotNullNotEmptyAttribute
+2020-04-29 14:57:45,884 [6] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Adding member Phonenumber to dictionary with attribute NHibernate.Validator.Constraints.NotNullNotEmptyAttribute
+2020-04-29 14:57:45,886 [6] INFO  NHibernate.Validator.Cfg.MappingSchema.RuleAttributeFactory [(null)] - Converting to Pattern attribute
+2020-04-29 14:57:45,887 [6] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Adding member Phonenumber to dictionary with attribute NHibernate.Validator.Constraints.PatternAttribute
+2020-04-29 14:57:45,905 [6] INFO  NHibernate.Validator.Engine.ClassValidator [(null)] - Adding member FirstName to dictionary with attribute NHibernate.Validator.Constraints.NotNullNotEmptyAttribute
+2020-04-29 14:57:45,907 [6] INFO  NHibernate.Validator.Engine.ClassValidator [(null)] - Adding member FirstName to dictionary with attribute NHibernate.Validator.Constraints.PatternAttribute
+2020-04-29 14:57:45,915 [6] INFO  NHibernate.Validator.Engine.ClassValidator [(null)] - Adding member LastName to dictionary with attribute NHibernate.Validator.Constraints.NotNullNotEmptyAttribute
+2020-04-29 14:57:45,916 [6] INFO  NHibernate.Validator.Engine.ClassValidator [(null)] - Adding member LastName to dictionary with attribute NHibernate.Validator.Constraints.PatternAttribute
+2020-04-29 14:57:45,919 [6] INFO  NHibernate.Validator.Engine.ClassValidator [(null)] - Adding member Address to dictionary with attribute NHibernate.Validator.Constraints.NotNullNotEmptyAttribute
+2020-04-29 14:57:45,921 [6] INFO  NHibernate.Validator.Engine.ClassValidator [(null)] - Adding member Address to dictionary with attribute NHibernate.Validator.Constraints.PatternAttribute
+2020-04-29 14:57:45,923 [6] INFO  NHibernate.Validator.Engine.ClassValidator [(null)] - Adding member Phonenumber to dictionary with attribute NHibernate.Validator.Constraints.NotNullNotEmptyAttribute
+2020-04-29 14:57:45,925 [6] INFO  NHibernate.Validator.Engine.ClassValidator [(null)] - Adding member Phonenumber to dictionary with attribute NHibernate.Validator.Constraints.PatternAttribute
+2020-04-29 14:57:45,954 [6] INFO  NHibernate.Cfg.Environment [(null)] - NHibernate 5.2.7 (assembly 5.2.0.0)
+2020-04-29 14:57:45,964 [6] INFO  NHibernate.Cfg.Environment [(null)] - hibernate-configuration section not found in application configuration file
+2020-04-29 14:57:45,969 [6] INFO  NHibernate.Cfg.Environment [(null)] - Bytecode provider name : lcg
+2020-04-29 14:57:45,974 [6] INFO  NHibernate.Cfg.Environment [(null)] - Objects factory class : NHibernate.Bytecode.ActivatorObjectsFactory
+2020-04-29 14:57:45,984 [6] INFO  NHibernate.Cfg.Environment [(null)] - Using reflection optimizer
+2020-04-29 14:57:51,182 [8] INFO  API logger [(null)] - Executing action GET for http://localhost:52376/api/CustomerEvent?customerId=50QWILAIE at 4/29/2020 2:57:51 PM
+2020-04-29 14:57:55,496 [8] INFO  API logger [(null)] - Executed action GET for http://localhost:52376/api/CustomerEvent?customerId=50QWILAIE at 4/29/2020 2:57:55 PM
+2020-04-29 14:57:58,716 [6] INFO  API logger [(null)] - Executed action POST for http://localhost:52376/api/Customer at 4/29/2020 2:57:58 PM
+2020-04-29 14:58:46,735 [6] INFO  API logger [(null)] - Executing action GET for http://localhost:52376/api/CustomerEvent?customerId="eventTest" at 4/29/2020 2:58:46 PM
+2020-04-29 14:58:59,491 [8] INFO  API logger [(null)] - Executed action GET for http://localhost:52376/api/CustomerEvent?customerId="eventTest" at 4/29/2020 2:58:59 PM
+2020-04-29 15:01:22,149 [15] INFO  API logger [(null)] - Executing action GET for http://localhost:52376/api/CustomerEvent?customerId="eventTest" at 4/29/2020 3:01:22 PM
+2020-04-29 15:02:42,434 [15] INFO  API logger [(null)] - Executed action GET for http://localhost:52376/api/CustomerEvent?customerId="eventTest" at 4/29/2020 3:02:42 PM
+2020-05-05 07:00:54,882 [5] INFO  API logger [(null)] - Executing action GET for http://localhost:52376/api/Customer?id="HKSNIQHVY" at 5/5/2020 7:00:54 AM
+2020-05-07 07:17:42,856 [7] INFO  API logger [(null)] - Executing action POST for http://localhost:52376/api/Customer at 5/7/2020 7:17:42 AM
+2020-05-07 07:18:08,973 [7] INFO  NHibernate.Validator.Cfg.XmlMappingLoader [(null)] - Searching for mapped documents in assembly: TestWebApi
+2020-05-07 07:18:08,981 [7] INFO  NHibernate.Validator.Cfg.XmlMappingLoader [(null)] - Mapping resource: TestWebApi.Models.Customer.nhv.xml
+2020-05-07 07:18:09,495 [7] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Looking for rules for property : FirstName
+2020-05-07 07:18:09,500 [7] INFO  NHibernate.Validator.Cfg.MappingSchema.RuleAttributeFactory [(null)] - Converting to NotNullNotEmptyAttribute
+2020-05-07 07:18:09,503 [7] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Adding member FirstName to dictionary with attribute NHibernate.Validator.Constraints.NotNullNotEmptyAttribute
+2020-05-07 07:18:09,506 [7] INFO  NHibernate.Validator.Cfg.MappingSchema.RuleAttributeFactory [(null)] - Converting to Pattern attribute
+2020-05-07 07:18:09,509 [7] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Adding member FirstName to dictionary with attribute NHibernate.Validator.Constraints.PatternAttribute
+2020-05-07 07:18:09,511 [7] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Looking for rules for property : LastName
+2020-05-07 07:18:09,514 [7] INFO  NHibernate.Validator.Cfg.MappingSchema.RuleAttributeFactory [(null)] - Converting to NotNullNotEmptyAttribute
+2020-05-07 07:18:09,516 [7] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Adding member LastName to dictionary with attribute NHibernate.Validator.Constraints.NotNullNotEmptyAttribute
+2020-05-07 07:18:09,517 [7] INFO  NHibernate.Validator.Cfg.MappingSchema.RuleAttributeFactory [(null)] - Converting to Pattern attribute
+2020-05-07 07:18:09,519 [7] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Adding member LastName to dictionary with attribute NHibernate.Validator.Constraints.PatternAttribute
+2020-05-07 07:18:09,521 [7] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Looking for rules for property : Address
+2020-05-07 07:18:09,523 [7] INFO  NHibernate.Validator.Cfg.MappingSchema.RuleAttributeFactory [(null)] - Converting to NotNullNotEmptyAttribute
+2020-05-07 07:18:09,526 [7] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Adding member Address to dictionary with attribute NHibernate.Validator.Constraints.NotNullNotEmptyAttribute
+2020-05-07 07:18:09,528 [7] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Looking for rules for property : Phonenumber
+2020-05-07 07:18:09,529 [7] INFO  NHibernate.Validator.Cfg.MappingSchema.RuleAttributeFactory [(null)] - Converting to NotNullNotEmptyAttribute
+2020-05-07 07:18:09,531 [7] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Adding member Phonenumber to dictionary with attribute NHibernate.Validator.Constraints.NotNullNotEmptyAttribute
+2020-05-07 07:18:09,533 [7] INFO  NHibernate.Validator.Cfg.MappingSchema.RuleAttributeFactory [(null)] - Converting to Pattern attribute
+2020-05-07 07:18:09,535 [7] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Adding member Phonenumber to dictionary with attribute NHibernate.Validator.Constraints.PatternAttribute
+2020-05-07 07:18:09,549 [7] INFO  NHibernate.Validator.Engine.ClassValidator [(null)] - Adding member FirstName to dictionary with attribute NHibernate.Validator.Constraints.NotNullNotEmptyAttribute
+2020-05-07 07:18:09,550 [7] INFO  NHibernate.Validator.Engine.ClassValidator [(null)] - Adding member FirstName to dictionary with attribute NHibernate.Validator.Constraints.PatternAttribute
+2020-05-07 07:18:09,558 [7] INFO  NHibernate.Validator.Engine.ClassValidator [(null)] - Adding member LastName to dictionary with attribute NHibernate.Validator.Constraints.NotNullNotEmptyAttribute
+2020-05-07 07:18:09,560 [7] INFO  NHibernate.Validator.Engine.ClassValidator [(null)] - Adding member LastName to dictionary with attribute NHibernate.Validator.Constraints.PatternAttribute
+2020-05-07 07:18:09,561 [7] INFO  NHibernate.Validator.Engine.ClassValidator [(null)] - Adding member Address to dictionary with attribute NHibernate.Validator.Constraints.NotNullNotEmptyAttribute
+2020-05-07 07:18:09,563 [7] INFO  NHibernate.Validator.Engine.ClassValidator [(null)] - Adding member Phonenumber to dictionary with attribute NHibernate.Validator.Constraints.NotNullNotEmptyAttribute
+2020-05-07 07:18:09,565 [7] INFO  NHibernate.Validator.Engine.ClassValidator [(null)] - Adding member Phonenumber to dictionary with attribute NHibernate.Validator.Constraints.PatternAttribute
+2020-05-07 07:18:13,926 [7] INFO  NHibernate.Cfg.Environment [(null)] - NHibernate 5.2.7 (assembly 5.2.0.0)
+2020-05-07 07:18:13,938 [7] INFO  NHibernate.Cfg.Environment [(null)] - hibernate-configuration section not found in application configuration file
+2020-05-07 07:18:13,942 [7] INFO  NHibernate.Cfg.Environment [(null)] - Bytecode provider name : lcg
+2020-05-07 07:18:13,946 [7] INFO  NHibernate.Cfg.Environment [(null)] - Objects factory class : NHibernate.Bytecode.ActivatorObjectsFactory
+2020-05-07 07:18:13,948 [7] INFO  NHibernate.Cfg.Environment [(null)] - Using reflection optimizer
+2020-05-12 05:16:28,100 [6] INFO  API logger [(null)] - Executing action POST for http://localhost:52376/api/Customer at 5/12/2020 5:16:28 AM
+2020-05-12 05:16:28,407 [6] INFO  NHibernate.Validator.Cfg.XmlMappingLoader [(null)] - Searching for mapped documents in assembly: TestWebApi
+2020-05-12 05:16:28,413 [6] INFO  NHibernate.Validator.Cfg.XmlMappingLoader [(null)] - Mapping resource: TestWebApi.Models.Customer.nhv.xml
+2020-05-12 05:16:28,797 [6] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Looking for rules for property : FirstName
+2020-05-12 05:16:28,818 [6] INFO  NHibernate.Validator.Cfg.MappingSchema.RuleAttributeFactory [(null)] - Converting to NotNullNotEmptyAttribute
+2020-05-12 05:16:28,831 [6] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Adding member FirstName to dictionary with attribute NHibernate.Validator.Constraints.NotNullNotEmptyAttribute
+2020-05-12 05:16:28,834 [6] INFO  NHibernate.Validator.Cfg.MappingSchema.RuleAttributeFactory [(null)] - Converting to Pattern attribute
+2020-05-12 05:16:28,843 [6] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Adding member FirstName to dictionary with attribute NHibernate.Validator.Constraints.PatternAttribute
+2020-05-12 05:16:28,845 [6] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Looking for rules for property : LastName
+2020-05-12 05:16:28,847 [6] INFO  NHibernate.Validator.Cfg.MappingSchema.RuleAttributeFactory [(null)] - Converting to NotNullNotEmptyAttribute
+2020-05-12 05:16:28,848 [6] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Adding member LastName to dictionary with attribute NHibernate.Validator.Constraints.NotNullNotEmptyAttribute
+2020-05-12 05:16:28,857 [6] INFO  NHibernate.Validator.Cfg.MappingSchema.RuleAttributeFactory [(null)] - Converting to Pattern attribute
+2020-05-12 05:16:28,884 [6] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Adding member LastName to dictionary with attribute NHibernate.Validator.Constraints.PatternAttribute
+2020-05-12 05:16:28,888 [6] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Looking for rules for property : Address
+2020-05-12 05:16:28,890 [6] INFO  NHibernate.Validator.Cfg.MappingSchema.RuleAttributeFactory [(null)] - Converting to NotNullNotEmptyAttribute
+2020-05-12 05:16:28,891 [6] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Adding member Address to dictionary with attribute NHibernate.Validator.Constraints.NotNullNotEmptyAttribute
+2020-05-12 05:16:28,895 [6] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Looking for rules for property : Phonenumber
+2020-05-12 05:16:28,897 [6] INFO  NHibernate.Validator.Cfg.MappingSchema.RuleAttributeFactory [(null)] - Converting to NotNullNotEmptyAttribute
+2020-05-12 05:16:28,898 [6] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Adding member Phonenumber to dictionary with attribute NHibernate.Validator.Constraints.NotNullNotEmptyAttribute
+2020-05-12 05:16:28,907 [6] INFO  NHibernate.Validator.Cfg.MappingSchema.RuleAttributeFactory [(null)] - Converting to Pattern attribute
+2020-05-12 05:16:28,908 [6] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Adding member Phonenumber to dictionary with attribute NHibernate.Validator.Constraints.PatternAttribute
+2020-05-12 05:16:28,919 [6] INFO  NHibernate.Validator.Engine.ClassValidator [(null)] - Adding member FirstName to dictionary with attribute NHibernate.Validator.Constraints.NotNullNotEmptyAttribute
+2020-05-12 05:16:28,921 [6] INFO  NHibernate.Validator.Engine.ClassValidator [(null)] - Adding member FirstName to dictionary with attribute NHibernate.Validator.Constraints.PatternAttribute
+2020-05-12 05:16:28,927 [6] INFO  NHibernate.Validator.Engine.ClassValidator [(null)] - Adding member LastName to dictionary with attribute NHibernate.Validator.Constraints.NotNullNotEmptyAttribute
+2020-05-12 05:16:28,928 [6] INFO  NHibernate.Validator.Engine.ClassValidator [(null)] - Adding member LastName to dictionary with attribute NHibernate.Validator.Constraints.PatternAttribute
+2020-05-12 05:16:28,930 [6] INFO  NHibernate.Validator.Engine.ClassValidator [(null)] - Adding member Address to dictionary with attribute NHibernate.Validator.Constraints.NotNullNotEmptyAttribute
+2020-05-12 05:16:28,936 [6] INFO  NHibernate.Validator.Engine.ClassValidator [(null)] - Adding member Phonenumber to dictionary with attribute NHibernate.Validator.Constraints.NotNullNotEmptyAttribute
+2020-05-12 05:16:28,938 [6] INFO  NHibernate.Validator.Engine.ClassValidator [(null)] - Adding member Phonenumber to dictionary with attribute NHibernate.Validator.Constraints.PatternAttribute
+2020-05-12 05:16:28,974 [6] INFO  NHibernate.Cfg.Environment [(null)] - NHibernate 5.2.7 (assembly 5.2.0.0)
+2020-05-12 05:16:28,978 [6] INFO  NHibernate.Cfg.Environment [(null)] - hibernate-configuration section not found in application configuration file
+2020-05-12 05:16:28,981 [6] INFO  NHibernate.Cfg.Environment [(null)] - Bytecode provider name : lcg
+2020-05-12 05:16:28,984 [6] INFO  NHibernate.Cfg.Environment [(null)] - Objects factory class : NHibernate.Bytecode.ActivatorObjectsFactory
+2020-05-12 05:16:28,987 [6] INFO  NHibernate.Cfg.Environment [(null)] - Using reflection optimizer
+2020-05-12 05:21:24,430 [5] INFO  API logger [(null)] - Executing action POST for http://localhost:52376/api/Customer at 5/12/2020 5:21:24 AM
+2020-05-12 05:21:24,732 [5] INFO  NHibernate.Validator.Cfg.XmlMappingLoader [(null)] - Searching for mapped documents in assembly: TestWebApi
+2020-05-12 05:21:24,738 [5] INFO  NHibernate.Validator.Cfg.XmlMappingLoader [(null)] - Mapping resource: TestWebApi.Models.Customer.nhv.xml
+2020-05-12 05:21:25,132 [5] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Looking for rules for property : FirstName
+2020-05-12 05:21:25,212 [5] INFO  NHibernate.Validator.Cfg.MappingSchema.RuleAttributeFactory [(null)] - Converting to NotNullNotEmptyAttribute
+2020-05-12 05:21:25,215 [5] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Adding member FirstName to dictionary with attribute NHibernate.Validator.Constraints.NotNullNotEmptyAttribute
+2020-05-12 05:21:25,219 [5] INFO  NHibernate.Validator.Cfg.MappingSchema.RuleAttributeFactory [(null)] - Converting to Pattern attribute
+2020-05-12 05:21:25,226 [5] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Adding member FirstName to dictionary with attribute NHibernate.Validator.Constraints.PatternAttribute
+2020-05-12 05:21:25,227 [5] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Looking for rules for property : LastName
+2020-05-12 05:21:25,229 [5] INFO  NHibernate.Validator.Cfg.MappingSchema.RuleAttributeFactory [(null)] - Converting to NotNullNotEmptyAttribute
+2020-05-12 05:21:25,230 [5] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Adding member LastName to dictionary with attribute NHibernate.Validator.Constraints.NotNullNotEmptyAttribute
+2020-05-12 05:21:25,232 [5] INFO  NHibernate.Validator.Cfg.MappingSchema.RuleAttributeFactory [(null)] - Converting to Pattern attribute
+2020-05-12 05:21:25,233 [5] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Adding member LastName to dictionary with attribute NHibernate.Validator.Constraints.PatternAttribute
+2020-05-12 05:21:25,234 [5] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Looking for rules for property : Address
+2020-05-12 05:21:25,236 [5] INFO  NHibernate.Validator.Cfg.MappingSchema.RuleAttributeFactory [(null)] - Converting to NotNullNotEmptyAttribute
+2020-05-12 05:21:25,237 [5] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Adding member Address to dictionary with attribute NHibernate.Validator.Constraints.NotNullNotEmptyAttribute
+2020-05-12 05:21:25,238 [5] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Looking for rules for property : Phonenumber
+2020-05-12 05:21:25,241 [5] INFO  NHibernate.Validator.Cfg.MappingSchema.RuleAttributeFactory [(null)] - Converting to NotNullNotEmptyAttribute
+2020-05-12 05:21:25,242 [5] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Adding member Phonenumber to dictionary with attribute NHibernate.Validator.Constraints.NotNullNotEmptyAttribute
+2020-05-12 05:21:25,244 [5] INFO  NHibernate.Validator.Cfg.MappingSchema.RuleAttributeFactory [(null)] - Converting to Pattern attribute
+2020-05-12 05:21:25,245 [5] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Adding member Phonenumber to dictionary with attribute NHibernate.Validator.Constraints.PatternAttribute
+2020-05-12 05:21:25,275 [5] INFO  NHibernate.Validator.Engine.ClassValidator [(null)] - Adding member FirstName to dictionary with attribute NHibernate.Validator.Constraints.NotNullNotEmptyAttribute
+2020-05-12 05:21:25,277 [5] INFO  NHibernate.Validator.Engine.ClassValidator [(null)] - Adding member FirstName to dictionary with attribute NHibernate.Validator.Constraints.PatternAttribute
+2020-05-12 05:21:25,283 [5] INFO  NHibernate.Validator.Engine.ClassValidator [(null)] - Adding member LastName to dictionary with attribute NHibernate.Validator.Constraints.NotNullNotEmptyAttribute
+2020-05-12 05:21:25,287 [5] INFO  NHibernate.Validator.Engine.ClassValidator [(null)] - Adding member LastName to dictionary with attribute NHibernate.Validator.Constraints.PatternAttribute
+2020-05-12 05:21:25,289 [5] INFO  NHibernate.Validator.Engine.ClassValidator [(null)] - Adding member Address to dictionary with attribute NHibernate.Validator.Constraints.NotNullNotEmptyAttribute
+2020-05-12 05:21:25,292 [5] INFO  NHibernate.Validator.Engine.ClassValidator [(null)] - Adding member Phonenumber to dictionary with attribute NHibernate.Validator.Constraints.NotNullNotEmptyAttribute
+2020-05-12 05:21:25,293 [5] INFO  NHibernate.Validator.Engine.ClassValidator [(null)] - Adding member Phonenumber to dictionary with attribute NHibernate.Validator.Constraints.PatternAttribute
+2020-05-12 05:21:25,326 [5] INFO  NHibernate.Cfg.Environment [(null)] - NHibernate 5.2.7 (assembly 5.2.0.0)
+2020-05-12 05:21:25,329 [5] INFO  NHibernate.Cfg.Environment [(null)] - hibernate-configuration section not found in application configuration file
+2020-05-12 05:21:25,332 [5] INFO  NHibernate.Cfg.Environment [(null)] - Bytecode provider name : lcg
+2020-05-12 05:21:25,335 [5] INFO  NHibernate.Cfg.Environment [(null)] - Objects factory class : NHibernate.Bytecode.ActivatorObjectsFactory
+2020-05-12 05:21:25,336 [5] INFO  NHibernate.Cfg.Environment [(null)] - Using reflection optimizer
+2020-05-12 05:48:16,477 [8] INFO  API logger [(null)] - Executing action POST for http://localhost:52376/api/Customer at 5/12/2020 5:48:16 AM
+2020-05-12 05:48:16,779 [8] INFO  NHibernate.Validator.Cfg.XmlMappingLoader [(null)] - Searching for mapped documents in assembly: TestWebApi
+2020-05-12 05:48:16,794 [8] INFO  NHibernate.Validator.Cfg.XmlMappingLoader [(null)] - Mapping resource: TestWebApi.Models.Customer.nhv.xml
+2020-05-12 05:48:17,244 [8] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Looking for rules for property : FirstName
+2020-05-12 05:48:17,252 [8] INFO  NHibernate.Validator.Cfg.MappingSchema.RuleAttributeFactory [(null)] - Converting to NotNullNotEmptyAttribute
+2020-05-12 05:48:17,254 [8] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Adding member FirstName to dictionary with attribute NHibernate.Validator.Constraints.NotNullNotEmptyAttribute
+2020-05-12 05:48:17,257 [8] INFO  NHibernate.Validator.Cfg.MappingSchema.RuleAttributeFactory [(null)] - Converting to Pattern attribute
+2020-05-12 05:48:17,264 [8] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Adding member FirstName to dictionary with attribute NHibernate.Validator.Constraints.PatternAttribute
+2020-05-12 05:48:17,266 [8] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Looking for rules for property : LastName
+2020-05-12 05:48:17,283 [8] INFO  NHibernate.Validator.Cfg.MappingSchema.RuleAttributeFactory [(null)] - Converting to NotNullNotEmptyAttribute
+2020-05-12 05:48:17,286 [8] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Adding member LastName to dictionary with attribute NHibernate.Validator.Constraints.NotNullNotEmptyAttribute
+2020-05-12 05:48:17,287 [8] INFO  NHibernate.Validator.Cfg.MappingSchema.RuleAttributeFactory [(null)] - Converting to Pattern attribute
+2020-05-12 05:48:17,289 [8] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Adding member LastName to dictionary with attribute NHibernate.Validator.Constraints.PatternAttribute
+2020-05-12 05:48:17,291 [8] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Looking for rules for property : Address
+2020-05-12 05:48:17,294 [8] INFO  NHibernate.Validator.Cfg.MappingSchema.RuleAttributeFactory [(null)] - Converting to NotNullNotEmptyAttribute
+2020-05-12 05:48:17,296 [8] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Adding member Address to dictionary with attribute NHibernate.Validator.Constraints.NotNullNotEmptyAttribute
+2020-05-12 05:48:17,300 [8] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Looking for rules for property : Phonenumber
+2020-05-12 05:48:17,303 [8] INFO  NHibernate.Validator.Cfg.MappingSchema.RuleAttributeFactory [(null)] - Converting to NotNullNotEmptyAttribute
+2020-05-12 05:48:17,305 [8] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Adding member Phonenumber to dictionary with attribute NHibernate.Validator.Constraints.NotNullNotEmptyAttribute
+2020-05-12 05:48:17,307 [8] INFO  NHibernate.Validator.Cfg.MappingSchema.RuleAttributeFactory [(null)] - Converting to Pattern attribute
+2020-05-12 05:48:17,309 [8] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Adding member Phonenumber to dictionary with attribute NHibernate.Validator.Constraints.PatternAttribute
+2020-05-12 05:48:17,324 [8] INFO  NHibernate.Validator.Engine.ClassValidator [(null)] - Adding member FirstName to dictionary with attribute NHibernate.Validator.Constraints.NotNullNotEmptyAttribute
+2020-05-12 05:48:17,330 [8] INFO  NHibernate.Validator.Engine.ClassValidator [(null)] - Adding member FirstName to dictionary with attribute NHibernate.Validator.Constraints.PatternAttribute
+2020-05-12 05:48:17,338 [8] INFO  NHibernate.Validator.Engine.ClassValidator [(null)] - Adding member LastName to dictionary with attribute NHibernate.Validator.Constraints.NotNullNotEmptyAttribute
+2020-05-12 05:48:17,341 [8] INFO  NHibernate.Validator.Engine.ClassValidator [(null)] - Adding member LastName to dictionary with attribute NHibernate.Validator.Constraints.PatternAttribute
+2020-05-12 05:48:17,343 [8] INFO  NHibernate.Validator.Engine.ClassValidator [(null)] - Adding member Address to dictionary with attribute NHibernate.Validator.Constraints.NotNullNotEmptyAttribute
+2020-05-12 05:48:17,345 [8] INFO  NHibernate.Validator.Engine.ClassValidator [(null)] - Adding member Phonenumber to dictionary with attribute NHibernate.Validator.Constraints.NotNullNotEmptyAttribute
+2020-05-12 05:48:17,347 [8] INFO  NHibernate.Validator.Engine.ClassValidator [(null)] - Adding member Phonenumber to dictionary with attribute NHibernate.Validator.Constraints.PatternAttribute
+2020-05-12 05:48:17,388 [8] INFO  NHibernate.Cfg.Environment [(null)] - NHibernate 5.2.7 (assembly 5.2.0.0)
+2020-05-12 05:48:17,391 [8] INFO  NHibernate.Cfg.Environment [(null)] - hibernate-configuration section not found in application configuration file
+2020-05-12 05:48:17,394 [8] INFO  NHibernate.Cfg.Environment [(null)] - Bytecode provider name : lcg
+2020-05-12 05:48:17,396 [8] INFO  NHibernate.Cfg.Environment [(null)] - Objects factory class : NHibernate.Bytecode.ActivatorObjectsFactory
+2020-05-12 05:48:17,399 [8] INFO  NHibernate.Cfg.Environment [(null)] - Using reflection optimizer
+2020-05-12 05:49:00,347 [8] INFO  API logger [(null)] - Executed action POST for http://localhost:52376/api/Customer at 5/12/2020 5:49:00 AM
+2020-05-12 05:53:09,757 [10] INFO  API logger [(null)] - Executing action POST for http://localhost:52376/api/Customer at 5/12/2020 5:53:09 AM
+2020-05-12 05:53:10,219 [10] INFO  NHibernate.Validator.Cfg.XmlMappingLoader [(null)] - Searching for mapped documents in assembly: TestWebApi
+2020-05-12 05:53:10,229 [10] INFO  NHibernate.Validator.Cfg.XmlMappingLoader [(null)] - Mapping resource: TestWebApi.Models.Customer.nhv.xml
+2020-05-12 05:53:10,785 [10] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Looking for rules for property : FirstName
+2020-05-12 05:53:10,793 [10] INFO  NHibernate.Validator.Cfg.MappingSchema.RuleAttributeFactory [(null)] - Converting to NotNullNotEmptyAttribute
+2020-05-12 05:53:10,796 [10] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Adding member FirstName to dictionary with attribute NHibernate.Validator.Constraints.NotNullNotEmptyAttribute
+2020-05-12 05:53:10,799 [10] INFO  NHibernate.Validator.Cfg.MappingSchema.RuleAttributeFactory [(null)] - Converting to Pattern attribute
+2020-05-12 05:53:10,801 [10] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Adding member FirstName to dictionary with attribute NHibernate.Validator.Constraints.PatternAttribute
+2020-05-12 05:53:10,802 [10] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Looking for rules for property : LastName
+2020-05-12 05:53:10,807 [10] INFO  NHibernate.Validator.Cfg.MappingSchema.RuleAttributeFactory [(null)] - Converting to NotNullNotEmptyAttribute
+2020-05-12 05:53:10,809 [10] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Adding member LastName to dictionary with attribute NHibernate.Validator.Constraints.NotNullNotEmptyAttribute
+2020-05-12 05:53:10,810 [10] INFO  NHibernate.Validator.Cfg.MappingSchema.RuleAttributeFactory [(null)] - Converting to Pattern attribute
+2020-05-12 05:53:10,812 [10] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Adding member LastName to dictionary with attribute NHibernate.Validator.Constraints.PatternAttribute
+2020-05-12 05:53:10,814 [10] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Looking for rules for property : Address
+2020-05-12 05:53:10,815 [10] INFO  NHibernate.Validator.Cfg.MappingSchema.RuleAttributeFactory [(null)] - Converting to NotNullNotEmptyAttribute
+2020-05-12 05:53:10,817 [10] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Adding member Address to dictionary with attribute NHibernate.Validator.Constraints.NotNullNotEmptyAttribute
+2020-05-12 05:53:10,819 [10] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Looking for rules for property : Phonenumber
+2020-05-12 05:53:10,821 [10] INFO  NHibernate.Validator.Cfg.MappingSchema.RuleAttributeFactory [(null)] - Converting to NotNullNotEmptyAttribute
+2020-05-12 05:53:10,823 [10] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Adding member Phonenumber to dictionary with attribute NHibernate.Validator.Constraints.NotNullNotEmptyAttribute
+2020-05-12 05:53:10,824 [10] INFO  NHibernate.Validator.Cfg.MappingSchema.RuleAttributeFactory [(null)] - Converting to Pattern attribute
+2020-05-12 05:53:10,826 [10] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Adding member Phonenumber to dictionary with attribute NHibernate.Validator.Constraints.PatternAttribute
+2020-05-12 05:53:10,839 [10] INFO  NHibernate.Validator.Engine.ClassValidator [(null)] - Adding member FirstName to dictionary with attribute NHibernate.Validator.Constraints.NotNullNotEmptyAttribute
+2020-05-12 05:53:10,841 [10] INFO  NHibernate.Validator.Engine.ClassValidator [(null)] - Adding member FirstName to dictionary with attribute NHibernate.Validator.Constraints.PatternAttribute
+2020-05-12 05:53:10,847 [10] INFO  NHibernate.Validator.Engine.ClassValidator [(null)] - Adding member LastName to dictionary with attribute NHibernate.Validator.Constraints.NotNullNotEmptyAttribute
+2020-05-12 05:53:10,848 [10] INFO  NHibernate.Validator.Engine.ClassValidator [(null)] - Adding member LastName to dictionary with attribute NHibernate.Validator.Constraints.PatternAttribute
+2020-05-12 05:53:10,850 [10] INFO  NHibernate.Validator.Engine.ClassValidator [(null)] - Adding member Address to dictionary with attribute NHibernate.Validator.Constraints.NotNullNotEmptyAttribute
+2020-05-12 05:53:10,852 [10] INFO  NHibernate.Validator.Engine.ClassValidator [(null)] - Adding member Phonenumber to dictionary with attribute NHibernate.Validator.Constraints.NotNullNotEmptyAttribute
+2020-05-12 05:53:10,854 [10] INFO  NHibernate.Validator.Engine.ClassValidator [(null)] - Adding member Phonenumber to dictionary with attribute NHibernate.Validator.Constraints.PatternAttribute
+2020-05-12 05:53:10,884 [10] INFO  NHibernate.Cfg.Environment [(null)] - NHibernate 5.2.7 (assembly 5.2.0.0)
+2020-05-12 05:53:10,889 [10] INFO  NHibernate.Cfg.Environment [(null)] - hibernate-configuration section not found in application configuration file
+2020-05-12 05:53:10,892 [10] INFO  NHibernate.Cfg.Environment [(null)] - Bytecode provider name : lcg
+2020-05-12 05:53:10,895 [10] INFO  NHibernate.Cfg.Environment [(null)] - Objects factory class : NHibernate.Bytecode.ActivatorObjectsFactory
+2020-05-12 05:53:10,897 [10] INFO  NHibernate.Cfg.Environment [(null)] - Using reflection optimizer
+2020-05-12 05:53:15,323 [11] INFO  API logger [(null)] - Executed action POST for http://localhost:52376/api/Customer at 5/12/2020 5:53:15 AM
+2020-05-12 05:58:27,404 [8] INFO  API logger [(null)] - Executing action POST for http://localhost:52376/api/Customer at 5/12/2020 5:58:27 AM
+2020-05-12 05:58:28,070 [8] INFO  NHibernate.Validator.Cfg.XmlMappingLoader [(null)] - Searching for mapped documents in assembly: TestWebApi
+2020-05-12 05:58:28,084 [8] INFO  NHibernate.Validator.Cfg.XmlMappingLoader [(null)] - Mapping resource: TestWebApi.Models.Customer.nhv.xml
+2020-05-12 05:58:28,509 [8] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Looking for rules for property : FirstName
+2020-05-12 05:58:28,514 [8] INFO  NHibernate.Validator.Cfg.MappingSchema.RuleAttributeFactory [(null)] - Converting to NotNullNotEmptyAttribute
+2020-05-12 05:58:28,516 [8] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Adding member FirstName to dictionary with attribute NHibernate.Validator.Constraints.NotNullNotEmptyAttribute
+2020-05-12 05:58:28,518 [8] INFO  NHibernate.Validator.Cfg.MappingSchema.RuleAttributeFactory [(null)] - Converting to Pattern attribute
+2020-05-12 05:58:28,520 [8] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Adding member FirstName to dictionary with attribute NHibernate.Validator.Constraints.PatternAttribute
+2020-05-12 05:58:28,521 [8] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Looking for rules for property : LastName
+2020-05-12 05:58:28,522 [8] INFO  NHibernate.Validator.Cfg.MappingSchema.RuleAttributeFactory [(null)] - Converting to NotNullNotEmptyAttribute
+2020-05-12 05:58:28,525 [8] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Adding member LastName to dictionary with attribute NHibernate.Validator.Constraints.NotNullNotEmptyAttribute
+2020-05-12 05:58:28,527 [8] INFO  NHibernate.Validator.Cfg.MappingSchema.RuleAttributeFactory [(null)] - Converting to Pattern attribute
+2020-05-12 05:58:28,528 [8] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Adding member LastName to dictionary with attribute NHibernate.Validator.Constraints.PatternAttribute
+2020-05-12 05:58:28,530 [8] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Looking for rules for property : Address
+2020-05-12 05:58:28,531 [8] INFO  NHibernate.Validator.Cfg.MappingSchema.RuleAttributeFactory [(null)] - Converting to NotNullNotEmptyAttribute
+2020-05-12 05:58:28,532 [8] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Adding member Address to dictionary with attribute NHibernate.Validator.Constraints.NotNullNotEmptyAttribute
+2020-05-12 05:58:28,534 [8] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Looking for rules for property : Phonenumber
+2020-05-12 05:58:28,535 [8] INFO  NHibernate.Validator.Cfg.MappingSchema.RuleAttributeFactory [(null)] - Converting to NotNullNotEmptyAttribute
+2020-05-12 05:58:28,536 [8] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Adding member Phonenumber to dictionary with attribute NHibernate.Validator.Constraints.NotNullNotEmptyAttribute
+2020-05-12 05:58:28,538 [8] INFO  NHibernate.Validator.Cfg.MappingSchema.RuleAttributeFactory [(null)] - Converting to Pattern attribute
+2020-05-12 05:58:28,539 [8] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Adding member Phonenumber to dictionary with attribute NHibernate.Validator.Constraints.PatternAttribute
+2020-05-12 05:58:28,550 [8] INFO  NHibernate.Validator.Engine.ClassValidator [(null)] - Adding member FirstName to dictionary with attribute NHibernate.Validator.Constraints.NotNullNotEmptyAttribute
+2020-05-12 05:58:28,551 [8] INFO  NHibernate.Validator.Engine.ClassValidator [(null)] - Adding member FirstName to dictionary with attribute NHibernate.Validator.Constraints.PatternAttribute
+2020-05-12 05:58:28,556 [8] INFO  NHibernate.Validator.Engine.ClassValidator [(null)] - Adding member LastName to dictionary with attribute NHibernate.Validator.Constraints.NotNullNotEmptyAttribute
+2020-05-12 05:58:28,559 [8] INFO  NHibernate.Validator.Engine.ClassValidator [(null)] - Adding member LastName to dictionary with attribute NHibernate.Validator.Constraints.PatternAttribute
+2020-05-12 05:58:28,560 [8] INFO  NHibernate.Validator.Engine.ClassValidator [(null)] - Adding member Address to dictionary with attribute NHibernate.Validator.Constraints.NotNullNotEmptyAttribute
+2020-05-12 05:58:28,562 [8] INFO  NHibernate.Validator.Engine.ClassValidator [(null)] - Adding member Phonenumber to dictionary with attribute NHibernate.Validator.Constraints.NotNullNotEmptyAttribute
+2020-05-12 05:58:28,563 [8] INFO  NHibernate.Validator.Engine.ClassValidator [(null)] - Adding member Phonenumber to dictionary with attribute NHibernate.Validator.Constraints.PatternAttribute
+2020-05-12 05:58:28,591 [8] INFO  NHibernate.Cfg.Environment [(null)] - NHibernate 5.2.7 (assembly 5.2.0.0)
+2020-05-12 05:58:28,595 [8] INFO  NHibernate.Cfg.Environment [(null)] - hibernate-configuration section not found in application configuration file
+2020-05-12 05:58:28,597 [8] INFO  NHibernate.Cfg.Environment [(null)] - Bytecode provider name : lcg
+2020-05-12 05:58:28,600 [8] INFO  NHibernate.Cfg.Environment [(null)] - Objects factory class : NHibernate.Bytecode.ActivatorObjectsFactory
+2020-05-12 05:58:28,601 [8] INFO  NHibernate.Cfg.Environment [(null)] - Using reflection optimizer
+2020-05-12 05:58:31,237 [13] INFO  API logger [(null)] - Executed action POST for http://localhost:52376/api/Customer at 5/12/2020 5:58:31 AM
+2020-05-12 06:03:56,155 [10] INFO  API logger [(null)] - Executing action POST for http://localhost:52376/api/Customer at 5/12/2020 6:03:56 AM
+2020-05-12 06:03:56,582 [10] INFO  NHibernate.Validator.Cfg.XmlMappingLoader [(null)] - Searching for mapped documents in assembly: TestWebApi
+2020-05-12 06:03:56,591 [10] INFO  NHibernate.Validator.Cfg.XmlMappingLoader [(null)] - Mapping resource: TestWebApi.Models.Customer.nhv.xml
+2020-05-12 06:03:57,020 [10] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Looking for rules for property : FirstName
+2020-05-12 06:03:57,026 [10] INFO  NHibernate.Validator.Cfg.MappingSchema.RuleAttributeFactory [(null)] - Converting to NotNullNotEmptyAttribute
+2020-05-12 06:03:57,029 [10] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Adding member FirstName to dictionary with attribute NHibernate.Validator.Constraints.NotNullNotEmptyAttribute
+2020-05-12 06:03:57,031 [10] INFO  NHibernate.Validator.Cfg.MappingSchema.RuleAttributeFactory [(null)] - Converting to Pattern attribute
+2020-05-12 06:03:57,032 [10] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Adding member FirstName to dictionary with attribute NHibernate.Validator.Constraints.PatternAttribute
+2020-05-12 06:03:57,034 [10] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Looking for rules for property : LastName
+2020-05-12 06:03:57,035 [10] INFO  NHibernate.Validator.Cfg.MappingSchema.RuleAttributeFactory [(null)] - Converting to NotNullNotEmptyAttribute
+2020-05-12 06:03:57,037 [10] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Adding member LastName to dictionary with attribute NHibernate.Validator.Constraints.NotNullNotEmptyAttribute
+2020-05-12 06:03:57,038 [10] INFO  NHibernate.Validator.Cfg.MappingSchema.RuleAttributeFactory [(null)] - Converting to Pattern attribute
+2020-05-12 06:03:57,039 [10] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Adding member LastName to dictionary with attribute NHibernate.Validator.Constraints.PatternAttribute
+2020-05-12 06:03:57,041 [10] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Looking for rules for property : Address
+2020-05-12 06:03:57,042 [10] INFO  NHibernate.Validator.Cfg.MappingSchema.RuleAttributeFactory [(null)] - Converting to NotNullNotEmptyAttribute
+2020-05-12 06:03:57,044 [10] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Adding member Address to dictionary with attribute NHibernate.Validator.Constraints.NotNullNotEmptyAttribute
+2020-05-12 06:03:57,046 [10] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Looking for rules for property : Phonenumber
+2020-05-12 06:03:57,047 [10] INFO  NHibernate.Validator.Cfg.MappingSchema.RuleAttributeFactory [(null)] - Converting to NotNullNotEmptyAttribute
+2020-05-12 06:03:57,049 [10] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Adding member Phonenumber to dictionary with attribute NHibernate.Validator.Constraints.NotNullNotEmptyAttribute
+2020-05-12 06:03:57,050 [10] INFO  NHibernate.Validator.Cfg.MappingSchema.RuleAttributeFactory [(null)] - Converting to Pattern attribute
+2020-05-12 06:03:57,051 [10] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Adding member Phonenumber to dictionary with attribute NHibernate.Validator.Constraints.PatternAttribute
+2020-05-12 06:03:57,063 [10] INFO  NHibernate.Validator.Engine.ClassValidator [(null)] - Adding member FirstName to dictionary with attribute NHibernate.Validator.Constraints.NotNullNotEmptyAttribute
+2020-05-12 06:03:57,065 [10] INFO  NHibernate.Validator.Engine.ClassValidator [(null)] - Adding member FirstName to dictionary with attribute NHibernate.Validator.Constraints.PatternAttribute
+2020-05-12 06:03:57,071 [10] INFO  NHibernate.Validator.Engine.ClassValidator [(null)] - Adding member LastName to dictionary with attribute NHibernate.Validator.Constraints.NotNullNotEmptyAttribute
+2020-05-12 06:03:57,072 [10] INFO  NHibernate.Validator.Engine.ClassValidator [(null)] - Adding member LastName to dictionary with attribute NHibernate.Validator.Constraints.PatternAttribute
+2020-05-12 06:03:57,074 [10] INFO  NHibernate.Validator.Engine.ClassValidator [(null)] - Adding member Address to dictionary with attribute NHibernate.Validator.Constraints.NotNullNotEmptyAttribute
+2020-05-12 06:03:57,076 [10] INFO  NHibernate.Validator.Engine.ClassValidator [(null)] - Adding member Phonenumber to dictionary with attribute NHibernate.Validator.Constraints.NotNullNotEmptyAttribute
+2020-05-12 06:03:57,077 [10] INFO  NHibernate.Validator.Engine.ClassValidator [(null)] - Adding member Phonenumber to dictionary with attribute NHibernate.Validator.Constraints.PatternAttribute
+2020-05-12 06:03:57,107 [10] INFO  NHibernate.Cfg.Environment [(null)] - NHibernate 5.2.7 (assembly 5.2.0.0)
+2020-05-12 06:03:57,114 [10] INFO  NHibernate.Cfg.Environment [(null)] - hibernate-configuration section not found in application configuration file
+2020-05-12 06:03:57,120 [10] INFO  NHibernate.Cfg.Environment [(null)] - Bytecode provider name : lcg
+2020-05-12 06:03:57,125 [10] INFO  NHibernate.Cfg.Environment [(null)] - Objects factory class : NHibernate.Bytecode.ActivatorObjectsFactory
+2020-05-12 06:03:57,126 [10] INFO  NHibernate.Cfg.Environment [(null)] - Using reflection optimizer
+2020-05-12 06:04:00,757 [12] INFO  API logger [(null)] - Executed action POST for http://localhost:52376/api/Customer at 5/12/2020 6:04:00 AM
+2020-05-12 06:07:53,566 [7] INFO  API logger [(null)] - Executing action POST for http://localhost:52376/api/Customer at 5/12/2020 6:07:53 AM
+2020-05-12 06:07:53,893 [7] INFO  NHibernate.Validator.Cfg.XmlMappingLoader [(null)] - Searching for mapped documents in assembly: TestWebApi
+2020-05-12 06:07:53,899 [7] INFO  NHibernate.Validator.Cfg.XmlMappingLoader [(null)] - Mapping resource: TestWebApi.Models.Customer.nhv.xml
+2020-05-12 06:07:54,287 [7] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Looking for rules for property : FirstName
+2020-05-12 06:07:54,293 [7] INFO  NHibernate.Validator.Cfg.MappingSchema.RuleAttributeFactory [(null)] - Converting to NotNullNotEmptyAttribute
+2020-05-12 06:07:54,295 [7] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Adding member FirstName to dictionary with attribute NHibernate.Validator.Constraints.NotNullNotEmptyAttribute
+2020-05-12 06:07:54,298 [7] INFO  NHibernate.Validator.Cfg.MappingSchema.RuleAttributeFactory [(null)] - Converting to Pattern attribute
+2020-05-12 06:07:54,300 [7] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Adding member FirstName to dictionary with attribute NHibernate.Validator.Constraints.PatternAttribute
+2020-05-12 06:07:54,301 [7] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Looking for rules for property : LastName
+2020-05-12 06:07:54,303 [7] INFO  NHibernate.Validator.Cfg.MappingSchema.RuleAttributeFactory [(null)] - Converting to NotNullNotEmptyAttribute
+2020-05-12 06:07:54,306 [7] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Adding member LastName to dictionary with attribute NHibernate.Validator.Constraints.NotNullNotEmptyAttribute
+2020-05-12 06:07:54,309 [7] INFO  NHibernate.Validator.Cfg.MappingSchema.RuleAttributeFactory [(null)] - Converting to Pattern attribute
+2020-05-12 06:07:54,312 [7] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Adding member LastName to dictionary with attribute NHibernate.Validator.Constraints.PatternAttribute
+2020-05-12 06:07:54,315 [7] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Looking for rules for property : Address
+2020-05-12 06:07:54,316 [7] INFO  NHibernate.Validator.Cfg.MappingSchema.RuleAttributeFactory [(null)] - Converting to NotNullNotEmptyAttribute
+2020-05-12 06:07:54,319 [7] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Adding member Address to dictionary with attribute NHibernate.Validator.Constraints.NotNullNotEmptyAttribute
+2020-05-12 06:07:54,320 [7] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Looking for rules for property : Phonenumber
+2020-05-12 06:07:54,322 [7] INFO  NHibernate.Validator.Cfg.MappingSchema.RuleAttributeFactory [(null)] - Converting to NotNullNotEmptyAttribute
+2020-05-12 06:07:54,324 [7] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Adding member Phonenumber to dictionary with attribute NHibernate.Validator.Constraints.NotNullNotEmptyAttribute
+2020-05-12 06:07:54,325 [7] INFO  NHibernate.Validator.Cfg.MappingSchema.RuleAttributeFactory [(null)] - Converting to Pattern attribute
+2020-05-12 06:07:54,327 [7] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Adding member Phonenumber to dictionary with attribute NHibernate.Validator.Constraints.PatternAttribute
+2020-05-12 06:07:54,338 [7] INFO  NHibernate.Validator.Engine.ClassValidator [(null)] - Adding member FirstName to dictionary with attribute NHibernate.Validator.Constraints.NotNullNotEmptyAttribute
+2020-05-12 06:07:54,341 [7] INFO  NHibernate.Validator.Engine.ClassValidator [(null)] - Adding member FirstName to dictionary with attribute NHibernate.Validator.Constraints.PatternAttribute
+2020-05-12 06:07:54,346 [7] INFO  NHibernate.Validator.Engine.ClassValidator [(null)] - Adding member LastName to dictionary with attribute NHibernate.Validator.Constraints.NotNullNotEmptyAttribute
+2020-05-12 06:07:54,349 [7] INFO  NHibernate.Validator.Engine.ClassValidator [(null)] - Adding member LastName to dictionary with attribute NHibernate.Validator.Constraints.PatternAttribute
+2020-05-12 06:07:54,350 [7] INFO  NHibernate.Validator.Engine.ClassValidator [(null)] - Adding member Address to dictionary with attribute NHibernate.Validator.Constraints.NotNullNotEmptyAttribute
+2020-05-12 06:07:54,355 [7] INFO  NHibernate.Validator.Engine.ClassValidator [(null)] - Adding member Phonenumber to dictionary with attribute NHibernate.Validator.Constraints.NotNullNotEmptyAttribute
+2020-05-12 06:07:54,356 [7] INFO  NHibernate.Validator.Engine.ClassValidator [(null)] - Adding member Phonenumber to dictionary with attribute NHibernate.Validator.Constraints.PatternAttribute
+2020-05-12 06:07:54,387 [7] INFO  NHibernate.Cfg.Environment [(null)] - NHibernate 5.2.7 (assembly 5.2.0.0)
+2020-05-12 06:07:54,390 [7] INFO  NHibernate.Cfg.Environment [(null)] - hibernate-configuration section not found in application configuration file
+2020-05-12 06:07:54,394 [7] INFO  NHibernate.Cfg.Environment [(null)] - Bytecode provider name : lcg
+2020-05-12 06:07:54,399 [7] INFO  NHibernate.Cfg.Environment [(null)] - Objects factory class : NHibernate.Bytecode.ActivatorObjectsFactory
+2020-05-12 06:07:54,410 [7] INFO  NHibernate.Cfg.Environment [(null)] - Using reflection optimizer
+2020-05-12 06:07:58,391 [7] INFO  API logger [(null)] - Executed action POST for http://localhost:52376/api/Customer at 5/12/2020 6:07:58 AM
+2020-05-12 06:08:05,704 [8] INFO  API logger [(null)] - Executing action GET for http://localhost:52376/api/Customer at 5/12/2020 6:08:05 AM
+2020-05-12 06:08:06,392 [8] INFO  API logger [(null)] - Executed action GET for http://localhost:52376/api/Customer at 5/12/2020 6:08:06 AM
+2020-05-12 07:07:57,769 [8] INFO  API logger [(null)] - Executing action POST for http://localhost:52376/api/Customer at 5/12/2020 7:07:57 AM
+2020-05-12 07:07:58,270 [8] INFO  NHibernate.Validator.Cfg.XmlMappingLoader [(null)] - Searching for mapped documents in assembly: TestWebApi
+2020-05-12 07:07:58,279 [8] INFO  NHibernate.Validator.Cfg.XmlMappingLoader [(null)] - Mapping resource: TestWebApi.Models.Customer.nhv.xml
+2020-05-12 07:07:58,738 [8] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Looking for rules for property : FirstName
+2020-05-12 07:07:58,743 [8] INFO  NHibernate.Validator.Cfg.MappingSchema.RuleAttributeFactory [(null)] - Converting to NotNullNotEmptyAttribute
+2020-05-12 07:07:58,745 [8] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Adding member FirstName to dictionary with attribute NHibernate.Validator.Constraints.NotNullNotEmptyAttribute
+2020-05-12 07:07:58,747 [8] INFO  NHibernate.Validator.Cfg.MappingSchema.RuleAttributeFactory [(null)] - Converting to Pattern attribute
+2020-05-12 07:07:58,749 [8] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Adding member FirstName to dictionary with attribute NHibernate.Validator.Constraints.PatternAttribute
+2020-05-12 07:07:58,750 [8] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Looking for rules for property : LastName
+2020-05-12 07:07:58,752 [8] INFO  NHibernate.Validator.Cfg.MappingSchema.RuleAttributeFactory [(null)] - Converting to NotNullNotEmptyAttribute
+2020-05-12 07:07:58,754 [8] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Adding member LastName to dictionary with attribute NHibernate.Validator.Constraints.NotNullNotEmptyAttribute
+2020-05-12 07:07:58,756 [8] INFO  NHibernate.Validator.Cfg.MappingSchema.RuleAttributeFactory [(null)] - Converting to Pattern attribute
+2020-05-12 07:07:58,758 [8] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Adding member LastName to dictionary with attribute NHibernate.Validator.Constraints.PatternAttribute
+2020-05-12 07:07:58,760 [8] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Looking for rules for property : Address
+2020-05-12 07:07:58,765 [8] INFO  NHibernate.Validator.Cfg.MappingSchema.RuleAttributeFactory [(null)] - Converting to NotNullNotEmptyAttribute
+2020-05-12 07:07:58,768 [8] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Adding member Address to dictionary with attribute NHibernate.Validator.Constraints.NotNullNotEmptyAttribute
+2020-05-12 07:07:58,779 [8] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Looking for rules for property : Phonenumber
+2020-05-12 07:07:58,781 [8] INFO  NHibernate.Validator.Cfg.MappingSchema.RuleAttributeFactory [(null)] - Converting to NotNullNotEmptyAttribute
+2020-05-12 07:07:58,782 [8] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Adding member Phonenumber to dictionary with attribute NHibernate.Validator.Constraints.NotNullNotEmptyAttribute
+2020-05-12 07:07:58,787 [8] INFO  NHibernate.Validator.Cfg.MappingSchema.RuleAttributeFactory [(null)] - Converting to Pattern attribute
+2020-05-12 07:07:58,788 [8] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Adding member Phonenumber to dictionary with attribute NHibernate.Validator.Constraints.PatternAttribute
+2020-05-12 07:07:58,800 [8] INFO  NHibernate.Validator.Engine.ClassValidator [(null)] - Adding member FirstName to dictionary with attribute NHibernate.Validator.Constraints.NotNullNotEmptyAttribute
+2020-05-12 07:07:58,802 [8] INFO  NHibernate.Validator.Engine.ClassValidator [(null)] - Adding member FirstName to dictionary with attribute NHibernate.Validator.Constraints.PatternAttribute
+2020-05-12 07:07:58,809 [8] INFO  NHibernate.Validator.Engine.ClassValidator [(null)] - Adding member LastName to dictionary with attribute NHibernate.Validator.Constraints.NotNullNotEmptyAttribute
+2020-05-12 07:07:58,810 [8] INFO  NHibernate.Validator.Engine.ClassValidator [(null)] - Adding member LastName to dictionary with attribute NHibernate.Validator.Constraints.PatternAttribute
+2020-05-12 07:07:58,811 [8] INFO  NHibernate.Validator.Engine.ClassValidator [(null)] - Adding member Address to dictionary with attribute NHibernate.Validator.Constraints.NotNullNotEmptyAttribute
+2020-05-12 07:07:58,813 [8] INFO  NHibernate.Validator.Engine.ClassValidator [(null)] - Adding member Phonenumber to dictionary with attribute NHibernate.Validator.Constraints.NotNullNotEmptyAttribute
+2020-05-12 07:07:58,814 [8] INFO  NHibernate.Validator.Engine.ClassValidator [(null)] - Adding member Phonenumber to dictionary with attribute NHibernate.Validator.Constraints.PatternAttribute
+2020-05-12 07:07:58,844 [8] INFO  NHibernate.Cfg.Environment [(null)] - NHibernate 5.2.7 (assembly 5.2.0.0)
+2020-05-12 07:07:58,847 [8] INFO  NHibernate.Cfg.Environment [(null)] - hibernate-configuration section not found in application configuration file
+2020-05-12 07:07:58,850 [8] INFO  NHibernate.Cfg.Environment [(null)] - Bytecode provider name : lcg
+2020-05-12 07:07:58,853 [8] INFO  NHibernate.Cfg.Environment [(null)] - Objects factory class : NHibernate.Bytecode.ActivatorObjectsFactory
+2020-05-12 07:07:58,855 [8] INFO  NHibernate.Cfg.Environment [(null)] - Using reflection optimizer
+2020-05-12 07:08:23,122 [8] INFO  API logger [(null)] - Executed action POST for http://localhost:52376/api/Customer at 5/12/2020 7:08:23 AM
+2020-05-13 02:18:53,547 [10] INFO  API logger [(null)] - Executing action POST for http://localhost:52376/api/Customer at 5/13/2020 2:18:53 AM
+2020-05-13 02:18:54,201 [10] INFO  NHibernate.Validator.Cfg.XmlMappingLoader [(null)] - Searching for mapped documents in assembly: TestWebApi
+2020-05-13 02:18:54,234 [10] INFO  NHibernate.Validator.Cfg.XmlMappingLoader [(null)] - Mapping resource: TestWebApi.Models.Customer.nhv.xml
+2020-05-13 02:18:54,921 [10] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Looking for rules for property : FirstName
+2020-05-13 02:18:54,936 [10] INFO  NHibernate.Validator.Cfg.MappingSchema.RuleAttributeFactory [(null)] - Converting to NotNullNotEmptyAttribute
+2020-05-13 02:18:54,944 [10] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Adding member FirstName to dictionary with attribute NHibernate.Validator.Constraints.NotNullNotEmptyAttribute
+2020-05-13 02:18:54,948 [10] INFO  NHibernate.Validator.Cfg.MappingSchema.RuleAttributeFactory [(null)] - Converting to Pattern attribute
+2020-05-13 02:18:54,977 [10] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Adding member FirstName to dictionary with attribute NHibernate.Validator.Constraints.PatternAttribute
+2020-05-13 02:18:55,016 [10] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Looking for rules for property : LastName
+2020-05-13 02:18:55,018 [10] INFO  NHibernate.Validator.Cfg.MappingSchema.RuleAttributeFactory [(null)] - Converting to NotNullNotEmptyAttribute
+2020-05-13 02:18:55,020 [10] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Adding member LastName to dictionary with attribute NHibernate.Validator.Constraints.NotNullNotEmptyAttribute
+2020-05-13 02:18:55,021 [10] INFO  NHibernate.Validator.Cfg.MappingSchema.RuleAttributeFactory [(null)] - Converting to Pattern attribute
+2020-05-13 02:18:55,032 [10] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Adding member LastName to dictionary with attribute NHibernate.Validator.Constraints.PatternAttribute
+2020-05-13 02:18:55,034 [10] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Looking for rules for property : Address
+2020-05-13 02:18:55,036 [10] INFO  NHibernate.Validator.Cfg.MappingSchema.RuleAttributeFactory [(null)] - Converting to NotNullNotEmptyAttribute
+2020-05-13 02:18:55,040 [10] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Adding member Address to dictionary with attribute NHibernate.Validator.Constraints.NotNullNotEmptyAttribute
+2020-05-13 02:18:55,048 [10] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Looking for rules for property : Phonenumber
+2020-05-13 02:18:55,050 [10] INFO  NHibernate.Validator.Cfg.MappingSchema.RuleAttributeFactory [(null)] - Converting to NotNullNotEmptyAttribute
+2020-05-13 02:18:55,051 [10] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Adding member Phonenumber to dictionary with attribute NHibernate.Validator.Constraints.NotNullNotEmptyAttribute
+2020-05-13 02:18:55,056 [10] INFO  NHibernate.Validator.Cfg.MappingSchema.RuleAttributeFactory [(null)] - Converting to Pattern attribute
+2020-05-13 02:18:55,058 [10] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Adding member Phonenumber to dictionary with attribute NHibernate.Validator.Constraints.PatternAttribute
+2020-05-13 02:18:55,077 [10] INFO  NHibernate.Validator.Engine.ClassValidator [(null)] - Adding member FirstName to dictionary with attribute NHibernate.Validator.Constraints.NotNullNotEmptyAttribute
+2020-05-13 02:18:55,083 [10] INFO  NHibernate.Validator.Engine.ClassValidator [(null)] - Adding member FirstName to dictionary with attribute NHibernate.Validator.Constraints.PatternAttribute
+2020-05-13 02:18:55,097 [10] INFO  NHibernate.Validator.Engine.ClassValidator [(null)] - Adding member LastName to dictionary with attribute NHibernate.Validator.Constraints.NotNullNotEmptyAttribute
+2020-05-13 02:18:55,099 [10] INFO  NHibernate.Validator.Engine.ClassValidator [(null)] - Adding member LastName to dictionary with attribute NHibernate.Validator.Constraints.PatternAttribute
+2020-05-13 02:18:55,101 [10] INFO  NHibernate.Validator.Engine.ClassValidator [(null)] - Adding member Address to dictionary with attribute NHibernate.Validator.Constraints.NotNullNotEmptyAttribute
+2020-05-13 02:18:55,103 [10] INFO  NHibernate.Validator.Engine.ClassValidator [(null)] - Adding member Phonenumber to dictionary with attribute NHibernate.Validator.Constraints.NotNullNotEmptyAttribute
+2020-05-13 02:18:55,105 [10] INFO  NHibernate.Validator.Engine.ClassValidator [(null)] - Adding member Phonenumber to dictionary with attribute NHibernate.Validator.Constraints.PatternAttribute
+2020-05-13 02:18:55,159 [10] INFO  NHibernate.Cfg.Environment [(null)] - NHibernate 5.2.7 (assembly 5.2.0.0)
+2020-05-13 02:18:55,181 [10] INFO  NHibernate.Cfg.Environment [(null)] - hibernate-configuration section not found in application configuration file
+2020-05-13 02:18:55,291 [10] INFO  NHibernate.Cfg.Environment [(null)] - Bytecode provider name : lcg
+2020-05-13 02:18:55,307 [10] INFO  NHibernate.Cfg.Environment [(null)] - Objects factory class : NHibernate.Bytecode.ActivatorObjectsFactory
+2020-05-13 02:18:55,317 [10] INFO  NHibernate.Cfg.Environment [(null)] - Using reflection optimizer
+2020-05-13 02:19:30,540 [10] INFO  API logger [(null)] - Executed action POST for http://localhost:52376/api/Customer at 5/13/2020 2:19:30 AM
+2020-05-13 07:22:46,741 [14] INFO  API logger [(null)] - Executing action GET for http://localhost:52376/api/Customer at 5/13/2020 7:22:46 AM
+2020-05-13 07:23:05,610 [14] INFO  API logger [(null)] - Executed action GET for http://localhost:52376/api/Customer at 5/13/2020 7:23:05 AM
+2020-05-13 07:25:20,237 [8] INFO  API logger [(null)] - Executing action GET for http://localhost:52376/api/Customer at 5/13/2020 7:25:20 AM
+2020-05-13 10:31:31,671 [8] INFO  API logger [(null)] - Executing action POST for http://localhost:52376/api/Customer at 5/13/2020 10:31:31 AM
+2020-05-13 10:31:32,081 [8] INFO  NHibernate.Validator.Cfg.XmlMappingLoader [(null)] - Searching for mapped documents in assembly: TestWebApi
+2020-05-13 10:31:32,090 [8] INFO  NHibernate.Validator.Cfg.XmlMappingLoader [(null)] - Mapping resource: TestWebApi.Models.Customer.nhv.xml
+2020-05-13 10:31:32,634 [8] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Looking for rules for property : FirstName
+2020-05-13 10:31:32,639 [8] INFO  NHibernate.Validator.Cfg.MappingSchema.RuleAttributeFactory [(null)] - Converting to NotNullNotEmptyAttribute
+2020-05-13 10:31:32,641 [8] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Adding member FirstName to dictionary with attribute NHibernate.Validator.Constraints.NotNullNotEmptyAttribute
+2020-05-13 10:31:32,644 [8] INFO  NHibernate.Validator.Cfg.MappingSchema.RuleAttributeFactory [(null)] - Converting to Pattern attribute
+2020-05-13 10:31:32,648 [8] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Adding member FirstName to dictionary with attribute NHibernate.Validator.Constraints.PatternAttribute
+2020-05-13 10:31:32,650 [8] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Looking for rules for property : LastName
+2020-05-13 10:31:32,651 [8] INFO  NHibernate.Validator.Cfg.MappingSchema.RuleAttributeFactory [(null)] - Converting to NotNullNotEmptyAttribute
+2020-05-13 10:31:32,652 [8] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Adding member LastName to dictionary with attribute NHibernate.Validator.Constraints.NotNullNotEmptyAttribute
+2020-05-13 10:31:32,654 [8] INFO  NHibernate.Validator.Cfg.MappingSchema.RuleAttributeFactory [(null)] - Converting to Pattern attribute
+2020-05-13 10:31:32,655 [8] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Adding member LastName to dictionary with attribute NHibernate.Validator.Constraints.PatternAttribute
+2020-05-13 10:31:32,657 [8] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Looking for rules for property : Address
+2020-05-13 10:31:32,658 [8] INFO  NHibernate.Validator.Cfg.MappingSchema.RuleAttributeFactory [(null)] - Converting to NotNullNotEmptyAttribute
+2020-05-13 10:31:32,660 [8] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Adding member Address to dictionary with attribute NHibernate.Validator.Constraints.NotNullNotEmptyAttribute
+2020-05-13 10:31:32,668 [8] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Looking for rules for property : Phonenumber
+2020-05-13 10:31:32,672 [8] INFO  NHibernate.Validator.Cfg.MappingSchema.RuleAttributeFactory [(null)] - Converting to NotNullNotEmptyAttribute
+2020-05-13 10:31:32,683 [8] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Adding member Phonenumber to dictionary with attribute NHibernate.Validator.Constraints.NotNullNotEmptyAttribute
+2020-05-13 10:31:32,688 [8] INFO  NHibernate.Validator.Cfg.MappingSchema.RuleAttributeFactory [(null)] - Converting to Pattern attribute
+2020-05-13 10:31:32,690 [8] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Adding member Phonenumber to dictionary with attribute NHibernate.Validator.Constraints.PatternAttribute
+2020-05-13 10:31:32,710 [8] INFO  NHibernate.Validator.Engine.ClassValidator [(null)] - Adding member FirstName to dictionary with attribute NHibernate.Validator.Constraints.NotNullNotEmptyAttribute
+2020-05-13 10:31:32,737 [8] INFO  NHibernate.Validator.Engine.ClassValidator [(null)] - Adding member FirstName to dictionary with attribute NHibernate.Validator.Constraints.PatternAttribute
+2020-05-13 10:31:32,748 [8] INFO  NHibernate.Validator.Engine.ClassValidator [(null)] - Adding member LastName to dictionary with attribute NHibernate.Validator.Constraints.NotNullNotEmptyAttribute
+2020-05-13 10:31:32,750 [8] INFO  NHibernate.Validator.Engine.ClassValidator [(null)] - Adding member LastName to dictionary with attribute NHibernate.Validator.Constraints.PatternAttribute
+2020-05-13 10:31:32,751 [8] INFO  NHibernate.Validator.Engine.ClassValidator [(null)] - Adding member Address to dictionary with attribute NHibernate.Validator.Constraints.NotNullNotEmptyAttribute
+2020-05-13 10:31:32,753 [8] INFO  NHibernate.Validator.Engine.ClassValidator [(null)] - Adding member Phonenumber to dictionary with attribute NHibernate.Validator.Constraints.NotNullNotEmptyAttribute
+2020-05-13 10:31:32,755 [8] INFO  NHibernate.Validator.Engine.ClassValidator [(null)] - Adding member Phonenumber to dictionary with attribute NHibernate.Validator.Constraints.PatternAttribute
+2020-05-13 10:31:32,788 [8] INFO  NHibernate.Cfg.Environment [(null)] - NHibernate 5.2.7 (assembly 5.2.0.0)
+2020-05-13 10:31:32,793 [8] INFO  NHibernate.Cfg.Environment [(null)] - hibernate-configuration section not found in application configuration file
+2020-05-13 10:31:32,797 [8] INFO  NHibernate.Cfg.Environment [(null)] - Bytecode provider name : lcg
+2020-05-13 10:31:32,800 [8] INFO  NHibernate.Cfg.Environment [(null)] - Objects factory class : NHibernate.Bytecode.ActivatorObjectsFactory
+2020-05-13 10:31:32,802 [8] INFO  NHibernate.Cfg.Environment [(null)] - Using reflection optimizer
+2020-05-13 10:32:19,188 [13] INFO  API logger [(null)] - Executed action POST for http://localhost:52376/api/Customer at 5/13/2020 10:32:19 AM
+2020-05-13 10:36:47,812 [8] INFO  API logger [(null)] - Executing action POST for http://localhost:52376/api/Customer at 5/13/2020 10:36:47 AM
+2020-05-13 10:36:48,390 [8] INFO  NHibernate.Validator.Cfg.XmlMappingLoader [(null)] - Searching for mapped documents in assembly: TestWebApi
+2020-05-13 10:36:48,398 [8] INFO  NHibernate.Validator.Cfg.XmlMappingLoader [(null)] - Mapping resource: TestWebApi.Models.Customer.nhv.xml
+2020-05-13 10:36:48,935 [8] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Looking for rules for property : FirstName
+2020-05-13 10:36:48,941 [8] INFO  NHibernate.Validator.Cfg.MappingSchema.RuleAttributeFactory [(null)] - Converting to NotNullNotEmptyAttribute
+2020-05-13 10:36:48,945 [8] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Adding member FirstName to dictionary with attribute NHibernate.Validator.Constraints.NotNullNotEmptyAttribute
+2020-05-13 10:36:48,947 [8] INFO  NHibernate.Validator.Cfg.MappingSchema.RuleAttributeFactory [(null)] - Converting to Pattern attribute
+2020-05-13 10:36:48,949 [8] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Adding member FirstName to dictionary with attribute NHibernate.Validator.Constraints.PatternAttribute
+2020-05-13 10:36:48,953 [8] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Looking for rules for property : LastName
+2020-05-13 10:36:48,955 [8] INFO  NHibernate.Validator.Cfg.MappingSchema.RuleAttributeFactory [(null)] - Converting to NotNullNotEmptyAttribute
+2020-05-13 10:36:48,957 [8] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Adding member LastName to dictionary with attribute NHibernate.Validator.Constraints.NotNullNotEmptyAttribute
+2020-05-13 10:36:48,958 [8] INFO  NHibernate.Validator.Cfg.MappingSchema.RuleAttributeFactory [(null)] - Converting to Pattern attribute
+2020-05-13 10:36:48,960 [8] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Adding member LastName to dictionary with attribute NHibernate.Validator.Constraints.PatternAttribute
+2020-05-13 10:36:48,963 [8] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Looking for rules for property : Address
+2020-05-13 10:36:48,965 [8] INFO  NHibernate.Validator.Cfg.MappingSchema.RuleAttributeFactory [(null)] - Converting to NotNullNotEmptyAttribute
+2020-05-13 10:36:48,967 [8] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Adding member Address to dictionary with attribute NHibernate.Validator.Constraints.NotNullNotEmptyAttribute
+2020-05-13 10:36:48,969 [8] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Looking for rules for property : Phonenumber
+2020-05-13 10:36:48,971 [8] INFO  NHibernate.Validator.Cfg.MappingSchema.RuleAttributeFactory [(null)] - Converting to NotNullNotEmptyAttribute
+2020-05-13 10:36:48,972 [8] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Adding member Phonenumber to dictionary with attribute NHibernate.Validator.Constraints.NotNullNotEmptyAttribute
+2020-05-13 10:36:48,975 [8] INFO  NHibernate.Validator.Cfg.MappingSchema.RuleAttributeFactory [(null)] - Converting to Pattern attribute
+2020-05-13 10:36:48,977 [8] INFO  NHibernate.Validator.Mappings.XmlClassMapping [(null)] - Adding member Phonenumber to dictionary with attribute NHibernate.Validator.Constraints.PatternAttribute
+2020-05-13 10:36:48,991 [8] INFO  NHibernate.Validator.Engine.ClassValidator [(null)] - Adding member FirstName to dictionary with attribute NHibernate.Validator.Constraints.NotNullNotEmptyAttribute
+2020-05-13 10:36:48,993 [8] INFO  NHibernate.Validator.Engine.ClassValidator [(null)] - Adding member FirstName to dictionary with attribute NHibernate.Validator.Constraints.PatternAttribute
+2020-05-13 10:36:48,999 [8] INFO  NHibernate.Validator.Engine.ClassValidator [(null)] - Adding member LastName to dictionary with attribute NHibernate.Validator.Constraints.NotNullNotEmptyAttribute
+2020-05-13 10:36:49,001 [8] INFO  NHibernate.Validator.Engine.ClassValidator [(null)] - Adding member LastName to dictionary with attribute NHibernate.Validator.Constraints.PatternAttribute
+2020-05-13 10:36:49,003 [8] INFO  NHibernate.Validator.Engine.ClassValidator [(null)] - Adding member Address to dictionary with attribute NHibernate.Validator.Constraints.NotNullNotEmptyAttribute
+2020-05-13 10:36:49,004 [8] INFO  NHibernate.Validator.Engine.ClassValidator [(null)] - Adding member Phonenumber to dictionary with attribute NHibernate.Validator.Constraints.NotNullNotEmptyAttribute
+2020-05-13 10:36:49,007 [8] INFO  NHibernate.Validator.Engine.ClassValidator [(null)] - Adding member Phonenumber to dictionary with attribute NHibernate.Validator.Constraints.PatternAttribute
+2020-05-13 10:36:49,041 [8] INFO  NHibernate.Cfg.Environment [(null)] - NHibernate 5.2.7 (assembly 5.2.0.0)
+2020-05-13 10:36:49,045 [8] INFO  NHibernate.Cfg.Environment [(null)] - hibernate-configuration section not found in application configuration file
+2020-05-13 10:36:49,058 [8] INFO  NHibernate.Cfg.Environment [(null)] - Bytecode provider name : lcg
+2020-05-13 10:36:49,061 [8] INFO  NHibernate.Cfg.Environment [(null)] - Objects factory class : NHibernate.Bytecode.ActivatorObjectsFactory
+2020-05-13 10:36:49,063 [8] INFO  NHibernate.Cfg.Environment [(null)] - Using reflection optimizer
+2020-05-13 10:36:57,967 [11] INFO  API logger [(null)] - Executed action POST for http://localhost:52376/api/Customer at 5/13/2020 10:36:57 AM

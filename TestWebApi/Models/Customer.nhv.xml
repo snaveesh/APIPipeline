@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<nhv-mapping xmlns="urn:nhibernate-validator-1.0"
+                        namespace="TestWebApi.Models"
+                        assembly="TestWebApi">
+  <class name="Customer">
+    <property name="FirstName">
+      <notnull-notempty message="The customer first name is mandatory"/>
+      <pattern regex="^[A-Za-z]+$" message="The customer first name can contain only alphabets"/>
+    </property>
+    <property name="LastName">
+      <notnull-notempty message="The customer last name is mandatory"/>
+      <pattern regex="^[A-Za-z]+$" message="The customer last name can contain only alphabets"/>
+    </property>
+    <property name="Address">
+      <notnull-notempty message="The address is mandatory"/>
+    </property>
+    <property name="Phonenumber">
+      <notnull-notempty message="The phone number is mandatory"/>
+      <pattern regex="^\+[0-9]+$" message="Phone number should start with + and should contain only digits"/>
+    </property>
+  </class>
+</nhv-mapping>

@@ -1,0 +1,29 @@
+﻿<div class="jumbotron">
+    <p class="lead">This API can be used to read and write data into the Customer database.</p>
+</div>
+<div class="row">
+   <div class="page-header">
+       <p class="lead">API Options:</p>
+   </div>
+</div>
+<div class="row">
+    <div class="col-md-6" style="border:ridge">
+        <h4>api/Customer <b>GET</b> call</h4>
+        <p>Returns the list of customers in the database</p>
+        <p><b>Authorization bearer token</b> should be included in the header</p>
+    </div>
+    <div class="col-md-6" style="border:ridge">
+        <h4>api/Customer <b>POST</b> call</h4>
+        <p>This can be used to store Customer in database</p>
+        <p>Header should include <b>Authorization bearer token</b>, <b>transactionID</b>,<b>agentID</b></p>
+        <p>Customer details should be added in body.</p>
+        <p>
+            Exapmle of body: {
+            "FirstName":"Abhi",
+            "LastName":"S V",
+            "Address": "Bangalore",
+            "Phonenumber": "123456789"
+            }
+        </p>
+    </div>
+</div>
