@@ -10,21 +10,27 @@ pool:
   vmImage: 'windows-latest'
 
 variables:
-  solution: '**/*.sln'
-  buildPlatform: 'Any CPU'
-  buildConfiguration: 'Release'
+- Build-Variables
 
 steps:
-- task: NuGetToolInstaller@1
+- task: NuGetToolInstaller@2
 
 - task: NuGetCommand@2
   inputs:
     restoreSolution: '$(solution)'
+    
+- task: SonarCloudPrepare@2
+  inputs:
+    SonarCloud: '$(Sonar_EndPoint)'
+    organization: '$(Sonar_Org)'
+    scannerMode: 'MSBuild'
+    projectKey: '$(Sonar_NewKey)'
+    projectName: '$(Sonar_NewProject)'
 
-- task: VSBuild@1
+- task: VSBuild@2
   inputs:
     solution: '$(solution)'
-    msbuildArgs: '/p:DeployOnBuild=true /p:WebPublishMethod=Package /p:PackageAsSingleFile=true /p:SkipInvalidConfigurations=true /p:PackageLocation="$(build.artifactStagingDirectory)"'
+    msbuildArgs: '/p:DeployOnBuild=true /p:DeployDefaultTarget=WebPublish /p:WebPublishMethod=FileSystem /p:DeleteExistingFiles=True /p:publishUrl="$(System.DefaultWorkingDirectory)/Web"'
     platform: '$(buildPlatform)'
     configuration: '$(buildConfiguration)'
 
@@ -32,3 +38,25 @@ steps:
   inputs:
     platform: '$(buildPlatform)'
     configuration: '$(buildConfiguration)'
+
+- task: PublishTestResults@2
+  inputs:
+    testResultsFormat: 'VSTest'
+    testResultsFiles: '**/TEST-*.xml'
+
+- task: SonarCloudAnalyze@2
+
+- task: ArchiveFiles@2
+  inputs:
+    rootFolderOrFile: '$(System.DefaultWorkingDirectory)/Web'
+    includeRootFolder: false
+    archiveType: 'zip'
+    archiveFile: '$(Build.ArtifactStagingDirectory)/API_$(Build.BuildId).zip'
+    replaceExistingArchive: true
+
+- task: PublishBuildArtifacts@2
+  inputs:
+    command: 'publish'
+    publishWebProjects: false
+    arguments: '-c $(BuildConfiguration) -o $(Build.StagingDirectory)/ci-build --no-build'
+    ArtifactName: 'API_drop'
