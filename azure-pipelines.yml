@@ -50,5 +50,5 @@ steps:
 - task: PublishBuildArtifacts@1
   displayName: 'Publish Artifact'
   inputs:
-      PathtoPublish: '$(build.artifactstagingdirectory)/API.Web.zip'
+      PathtoPublish: '$(build.artifactstagingdirectory)/'
       ArtifactName: 'APIDROP'
