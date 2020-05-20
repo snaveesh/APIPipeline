@@ -10,16 +10,16 @@ pool:
   vmImage: 'windows-latest'
 
 variables:
-- Build-Variables
+- group: Build-Variables
 
 steps:
-- task: NuGetToolInstaller@2
+- task: NuGetToolInstaller@1
 
 - task: NuGetCommand@2
   inputs:
     restoreSolution: '$(solution)'
     
-- task: SonarCloudPrepare@2
+- task: SonarCloudPrepare@1
   inputs:
     SonarCloud: '$(Sonar_EndPoint)'
     organization: '$(Sonar_Org)'
@@ -27,7 +27,7 @@ steps:
     projectKey: '$(Sonar_NewKey)'
     projectName: '$(Sonar_NewProject)'
 
-- task: VSBuild@2
+- task: VSBuild@1
   inputs:
     solution: '$(solution)'
     msbuildArgs: '/p:DeployOnBuild=true /p:DeployDefaultTarget=WebPublish /p:WebPublishMethod=FileSystem /p:DeleteExistingFiles=True /p:publishUrl="$(System.DefaultWorkingDirectory)/Web"'
@@ -44,7 +44,7 @@ steps:
     testResultsFormat: 'VSTest'
     testResultsFiles: '**/TEST-*.xml'
 
-- task: SonarCloudAnalyze@2
+- task: SonarCloudAnalyze@1
 
 - task: ArchiveFiles@2
   inputs:
@@ -54,7 +54,7 @@ steps:
     archiveFile: '$(Build.ArtifactStagingDirectory)/API_$(Build.BuildId).zip'
     replaceExistingArchive: true
 
-- task: PublishBuildArtifacts@2
+- task: PublishBuildArtifacts@1
   inputs:
     command: 'publish'
     publishWebProjects: false
