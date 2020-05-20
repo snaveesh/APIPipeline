@@ -55,8 +55,12 @@ steps:
 
 - task: SonarCloudAnalyze@1
 
+- task: SonarCloudPublish@1
+  inputs:
+    pollingTimeoutSec: '300'
+
 - task: PublishBuildArtifacts@1
   displayName: 'Publish Artifact'
   inputs:
-      PathtoPublish: '$(build.artifactstagingdirectory)/*.zip'
+      PathtoPublish: '$(build.artifactstagingdirectory)/'
       ArtifactName: 'APIDROP'
